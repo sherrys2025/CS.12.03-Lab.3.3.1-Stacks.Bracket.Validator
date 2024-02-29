@@ -43,7 +43,6 @@ class CheckParenthesesTest {
         String[] invalidBracketArray = new String[]{brackets3, brackets4, brackets7};
 
         for (String bracketString: validBracketArray) {
-
             assertTrue(BracketValidator.checkValidParentheses(bracketString));
 
         }
